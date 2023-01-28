@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 body{
-    background-color: #e7e7e7;
+    background-color: #fff;
     padding-top: 100px;
 }
 
@@ -16,47 +16,51 @@ header{
     margin-bottom: 40px;
     }
 
-    header img{
-        height: 36px;
-        margin-right: 16px;    
+header img{
+        height: 60px;
+        margin-right: 18px;
+        margin-left: 18px; 
     }
 
 header h1{
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 48px;
+    font-weight:bold;
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 }
 
 form{
     display: flex;
-    max-width: 640px;
+    max-width: 1000px;
     width: 100%;
-    justify-content: space-between;
-    margin-bottom: 56px;
+    justify-content:space-between;
+    margin-bottom: 60px;
 }
 
 form input{
-    font-size: 24px;
+    font-size: 26px;
     background-color: #fff;
     border: none;
     border-bottom: 2px solid #000;
-    padding: 8px;
+    padding-right: 100px;
+    margin-right: 20px;
 
 }
 
 form button{
-    background-color: #009432;
+    background-color: #006c94;
     color: #fff;
     font-size: 24px;
     font-weight: bold;
     border: none;
     cursor: pointer;
-    padding: 8px;
+    padding: 14px;
+    width: 200px;
+    text-align:center;
 }
 
 table {
@@ -64,7 +68,7 @@ table {
 }
 
 table th{
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     padding: 16px;
     font-size: 24px;
     font-weight: bold;
@@ -76,29 +80,3 @@ table td{
     font-size: 18px;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
-
-table td img{
-    height: 30px;
-
-}
-
-.resultado{
-    padding: 8px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #000;
-    border-radius: 3px;
-}
-
-.aprovado {
-    background-color: #009432;
-}
-
-.reprovado {
-    background-color: red;
-}
-
-
-
-
-
